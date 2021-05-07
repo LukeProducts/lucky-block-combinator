@@ -6,7 +6,7 @@ because you don't know that otherwise and save a lot of effort here. \
 If you have found a duplicate registration, you can also modify a Lucky Block without leaving it away so that you rename the objects and no more errors occur.
 
 # Installation
-```ruby
+```python
 pip install lucky-block-combinator
 ```
 
@@ -22,4 +22,5 @@ pip install lucky-block-combinator
 ```python
 from lucky_block_combinator.Minecraft import Minecraft
 mc = Minecraft("your/path/to/directory/with/all/your/lucky_blocks/in/it")
+
 ```
