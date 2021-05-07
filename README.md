@@ -15,8 +15,7 @@ pip install lucky-block-combinator
 | Function | Description |
 | ----- | ----- |
 | init(directory)| directory in which the Lucky Blocks are located |
-| find()|Searching for minecraft object like block, item, etc. in every readable subfile
- Example: \
+| find()|Searching for minecraft object like block, item, etc. in every readable subfile \ Example: \
         Minecraft crash report: "java.lang.IllegalArgumentException: The name lootplusplus:plural_block has been registered twice, for com.tmtravlr.lootplusplus.additions.BlockAdded@306e9bf0 and com.tmtravlr.lootplusplus.additions.BlockAdded@1b2c756a."
         Minecraft is crashing because two Lucky Blocks were assigned the same ID and now you need to change the name "plural_block" to something else.
         Now if you search for the object "plural_block", you will see that in several Lucky Blocks have found the same ID.
