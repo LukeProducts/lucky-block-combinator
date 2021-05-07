@@ -26,5 +26,5 @@ print(mc.get_file_dirs())
 
 OUTPUT:
 
-[C:/Users/User/lucky_block/TrollLuckyBlock/config/ore_dictionary/additions.txt', ...]
+['C:/Users/User/lucky_block/TrollLuckyBlock/config/ore_dictionary/additions.txt', ...]
 ```
