@@ -28,3 +28,14 @@ OUTPUT:
 
 ['C:/Users/User/lucky_block/TrollLuckyBlock/config/ore_dictionary/additions.txt', ...]
 ```
+
+```python
+from lucky_block_combinator.Minecraft import Minecraft
+mc = Minecraft("your/path/to/directory/with/all/your/lucky_blocks/in/it")
+directories = mc.get_file_dirs()
+print(mc.find("op_box", directories))
+
+OUTPUT:
+
+['C:/Users/User/lucky_block/plural_lucky_block_5.1.0_newrise12/assets/lootplusplus/models/item/plural.op_box.json', ...]
+```
