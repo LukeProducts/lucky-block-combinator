@@ -20,5 +20,5 @@ pip install lucky-block-combinator
 |replace(searchfor, replace_to)| In order to modify a Lucky Block to make it compatible to others with same Objects you have to change the loot name of these objects To execute this function, the files-list must be present in the environment variables with get_file_dirs(). Not to change the objects name in every Lucky Block, you have to remove at least the other Lucky Block having the same object. The script will now change the name of all crucial files in the Lucky Block Folder and change their content searchfor variable to the replace_to variable. Minecraft, once you've renamed all duplicate objects, will no longer crash and you will be able to play all possible Lucky Block combinations with each other. You don't need to worry about textures. They will still work., param searchfor: object to search for, param replace_to: object to replace to, returns: True after successfully process|
 # Example
 ```python
-from lucky
+from lucky_block_combinator.Minecraft import Minecraft
 ```
