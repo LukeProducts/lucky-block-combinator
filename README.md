@@ -41,3 +41,15 @@ OUTPUT:
 
 ['C:/Users/User/lucky_block/plural_lucky_block_5.1.0_newrise12/assets/lootplusplus/models/item/plural.op_box.json', ...]
 ```
+3. replace(searchfor, replace_to)
+```python
+from lucky_block_combinator.Minecraft import Minecraft
+mc = Minecraft("your/path/to/directory/with/all/your/lucky_blocks/in/it")
+directories = mc.get_file_dirs()
+found = mc.find("op_box", directories)
+print(mc.replace("op_box", "op_box2")
+
+OUTPUT:
+
+True
+```
