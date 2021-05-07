@@ -21,4 +21,5 @@ pip install lucky-block-combinator
 # Example
 ```python
 from lucky_block_combinator.Minecraft import Minecraft
+mc = Minecraft("your/path/to/directory/with/all/your/lucky_blocks/in/it")
 ```
