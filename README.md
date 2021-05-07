@@ -53,6 +53,7 @@ OUTPUT:
 
 True
 ```
+Recommanded: make backups of the Lucky Blocks first, because when modifying the files, inexperienced people can make them unusable.
 
 [![Build Status](https://user-images.githubusercontent.com/73026669/110617122-9c75ad00-8195-11eb-9ba5-422356072776.png)](https://github.com/LukeProducts)
 
