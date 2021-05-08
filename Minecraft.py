@@ -57,7 +57,7 @@ class Minecraft():
                     with zipfile.ZipFile(self.glob_dir + "/" + maybezip, 'r') as zip_ref:
                         os.mkdir(self.glob_dir + "/" + maybezip.replace(".zip", ""))
                         zip_ref.extractall(self.glob_dir + "/" + maybezip.replace(".zip", ""))
-                        os.remove(self.glob_dir + "/" + maybezip)
+                    os.remove(self.glob_dir + "/" + maybezip)
                 elif not maybezip.endswith(".zip") and (maybezip + ".zip") in os.listdir(self.glob_dir):
                     os.remove(self.glob_dir + "/" + maybezip + ".zip")
                 else:
