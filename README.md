@@ -9,7 +9,7 @@ If you have found a duplicate registration, you can also modify a Lucky Block wi
 ```ruby
 pip install lucky-block-combinator                
 ```
-<a href="https://pypi.org/project/lucky-block-combinator/" target="_blank">source</a>
+<a href="https://pypi.org/project/lucky-block-combinator/">Pypi project</a>
 
 
 # Usage
