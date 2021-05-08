@@ -7,8 +7,10 @@ If you have found a duplicate registration, you can also modify a Lucky Block wi
 
 # Installation
 ```ruby
-pip install lucky-block-combinator                [source-code: https://pypi.org/project/lucky-block-combinator]
+pip install lucky-block-combinator                
 ```
+[source-code: https://pypi.org/project/lucky-block-combinator]
+
 
 # Usage
 
