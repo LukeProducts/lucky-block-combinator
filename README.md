@@ -41,7 +41,8 @@ print(mc.find("op_box", directories))
 
 OUTPUT:
 
-['C:/Users/User/lucky_block/plural_lucky_block_5.1.0_newrise12/assets/lootplusplus/models/item/plural.op_box.json', ...]
+['C:/Users/User/lucky_block/plural_lucky_block_5.1.0_newrise12/
+assets/lootplusplus/models/item/plural.op_box.json', ...]
 ```
 3. replace(searchfor, replace_to)
 ```python
