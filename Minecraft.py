@@ -20,7 +20,7 @@ class Minecraft():
         Minecraft is crashing because two Lucky Blocks were assigned the same ID and now you need to change the name "plural_block" to something else.
         Now if you search for the object "plural_block", you will see that in several Lucky Blocks have found the same ID.
         This tells you the compatibility of the Lucky Blocks.
-        In this case you will see: [..."/LuckyBlockVideoGames/bow_drops.txt", ...] and [..."/LuckyBlockVideoGames/bow_drops.txt", ...].
+        In this case you will see: [..."/LuckyBlockVideoGames/bow_drops.txt", ...] and [..."/LuckyBlockPlural/bow_drops.txt", ...].
         This informes us that this Lucky Block is not compatible with the plural Lucky Block,
         so you can't play either the Lucky Block plural or the Lucky Block VideoGames,
         so you have to choose one of the two or use the brought replace() function to modify the Lucky Block file to make your game work.
